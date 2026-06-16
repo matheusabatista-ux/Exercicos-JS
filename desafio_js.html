@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var nome = prompt('Diga seu nome');
+        var clase = prompt('Digite sua clase que pode ser (1/2/3)');
+        var venda = Number(prompt('Digite o total mensal de vendas'));
+        if (clase == 1) {
+            var total = 1500 + ( 0.025 * vendas);
+        } else if (clase == '2') {
+           var total = 2000 + (0.03 * vendas);
+        } else if (clase == '3') {
+            var total = 3000 + ( 0.035 * vendas);
+        } 
+            document.write('Você ira receber nesse mês: ' + total + ' reais ');
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
